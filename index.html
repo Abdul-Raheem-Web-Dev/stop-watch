@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="set-height">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <title>Stop Watch</title>
+</head>
+
+<body class="set-height">
+<!-- main div-->
+    <div class="main set-height">
+<!-- stop watch heading-->
+        <div class="heading">
+            <h1>Stop Watch</h1>
+        </div>
+<!-- stop watch screen-->
+        <div class="stop-watch-screen">
+            <div class="timer">
+                <h2 id="hours">0</h2>
+            </div>
+            <div class="timer">
+                <h2 id="minutes">0</h2>
+            </div>
+            <div class="timer">
+                <h2 id="seconds">0</h2>
+            </div>
+            <div class="timer">
+                <h2 id="milliseconds">0</h2>
+            </div>
+        </div>
+<!-- stop watch button-->
+        <div class="stop-watch-button">
+            <button class="green" onclick="start()">Start</button>
+            <button class="red" onclick="stop()">Stop</button>
+            <button class="blue" onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

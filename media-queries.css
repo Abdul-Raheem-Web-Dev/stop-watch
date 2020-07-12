@@ -1,0 +1,71 @@
+/* responsive above 1200px wide screen */
+
+@media screen and (min-width: 1200px)
+{
+    .main
+    {
+        padding: 0% !important;
+    }
+    .stop-watch-screen
+    {   
+        width: 100% !important;
+        min-height: 60% !important;
+    }
+}
+
+/* responsive upto 1200px wide screen */
+
+@media screen and (max-width: 1200px)
+{
+    .main
+    {
+        padding: 15% 10% !important;
+    }
+    .stop-watch-screen
+    {   
+        min-height: 60% !important;
+    }
+}
+
+/* responsive upto 768px wide screen */
+
+@media screen and (max-width: 768px)
+{
+    .main
+    {
+        padding: 15% 4% !important;
+    }
+    .stop-watch-screen
+    {   
+        width: 80% !important;
+        min-height: 40% !important;
+    }
+}
+/* responsive upto 576px wide screen */
+
+@media screen and (max-width: 576px)
+{
+    .main
+    {
+        padding: 15% 0% !important;
+    }
+    .stop-watch-screen
+    {   
+        width: 80% !important;
+        min-height: 40% !important;
+    }
+    .timer
+    {
+        width: 30% !important;
+    }
+    .stop-watch-button
+    {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    button
+    {
+        width: 100% !important;
+        margin: 3% 0% 0% 0% !important;
+    }
+}
